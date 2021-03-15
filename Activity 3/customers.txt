@@ -1,0 +1,10 @@
+Kurt, Newcomb, 27
+Kate, Newcomb, 29
+Kathy, Newcomb, 64
+Stan, Newcomb, 60
+Alexander, Clark, 25
+An, Le, 26
+Matthew, Lung, 27
+Yuji, Takabayashi, 28
+Alexander, Davison, 26
+Zachary, Gardener, 27
