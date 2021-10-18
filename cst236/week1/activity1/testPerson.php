@@ -13,3 +13,4 @@ echo"<br>";
 echo "user 2 login attempt.<br>";
 $p2->login($p->getUsername(), "qwer");
 
+echo "test over<br>";
