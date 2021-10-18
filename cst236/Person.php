@@ -1,81 +1,50 @@
 <?php
-namespace week1\activity1;
+
+/**
+ * 
+ * Class that encapsulates a Person object
+ * 
+ * User: Kurt Newcomb
+ * Date: 2/26/2021
+ *  
+ * @author Kurt
+ *
+ */
 
 class Person
 {
-    private $name;
+
+    protected $name;
+    private $age;
     private $username;
     private $password;
     
-    /**
-     * @return mixed
-     */
-    public function getName()
+    public function __construct($name)
     {
-        return $this->name;
-    }
-
-    /**
-     * @return string
-     */
-    public function getUsername()
-    {
-        return $this->username;
-    }
-
-    /**
-     * @return string
-     */
-    public function getPassword()
-    {
-        return $this->password;
-    }
-
-    /**
-     * @param mixed $name
-     */
-    public function setName($name)
-    {
-        $this->name = $name;
-    }
-
-    /**
-     * @param string $username
-     */
-    public function setUsername($username)
-    {
-        $this->username = $username;
-    }
-
-    /**
-     * @param string $password
-     */
-    public function setPassword($password)
-    {
-        $this->password = $password;
-    }
-
-    public function __function($name){
         echo "Hello my name is " . $name . "<br>";
         $this->name = $name;
-        $this->username = "kurt";
-        $this->password = "qwer";
+        $this->username = "username";
+        $this->password = "password";
     }
     
-    public function walk(){
-        echo "walked...";
+    
+    public function walk() {
+        echo "I am walking....." . "<br>";
     }
     
-    public function formalGreeting(){
-        echo "Good day to you sir!<br>";
+    public function formalGreeting() {
+        echo "Good day to you sir. You can address me as " . $this->name . "<br>";
+    }
+    public function spanishGreeting() {
+        echo "Hola! Me llamo " . $this->name . "<br>";
     }
     
-    public function login($username, $password){
-        if($username == $this->username && $password == $this->password){
-            echo $this->name . " has logged in successfully.<br>";
+    public function login($a, $b){
+        if ($a == $this->username && $b == $this->password) {
+            echo $this->name . " has been logged in successfully.<br>";
         }
         else {
-            echo "login failed.<br>";
+            echo "Login failed. That doesn't seem quite right<br>";
         }
     }
 }
