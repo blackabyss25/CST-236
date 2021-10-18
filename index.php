@@ -1,3 +1,3 @@
 <?php
-echo "cst 236 index.";
-echo "update test";
+echo "cst 236 index.<br>";
+echo "update test<br>";
