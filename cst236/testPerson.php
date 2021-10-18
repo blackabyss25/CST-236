@@ -1,9 +1,8 @@
 <?php
 echo "test<br>";
 
-use week1\activity1\Person;
 
-require_once 'week1/activity1/Person.php';
+require_once 'Person.php';
 
 $p = new Person("kurt");
 $p2 = new Person("kate");
