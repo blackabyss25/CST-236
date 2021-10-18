@@ -70,8 +70,8 @@ class Person
         echo "Good day to you sir!<br>";
     }
     
-    public function login($a, $b){
-        if($a == $this->username && $b == $this->password){
+    public function login($username, $password){
+        if($username == $this->username && $password == $this->password){
             echo $this->name . " has logged in successfully.<br>";
         }
         else {
