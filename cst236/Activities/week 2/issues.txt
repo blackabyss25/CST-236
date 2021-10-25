@@ -1,0 +1,5 @@
+I can't figure out why my users array that is supposed to populate my display all users search results is empty... 
+
+The security part is also giving me trouble and just keeps throwing error 500 at me, so I'm getting no help there, but I followed the tutorial as best I could. 
+
+
